@@ -1,12 +1,9 @@
 #include <stdio.h>
-
-/**
- * main - print the phrase
- * "programming is like building a multilingual puzzle"
- * 
- * Return: Always 0 (Success)
- **/
-
+/*
+ * A C program that prints 'with proper grammar,
+ * but the outcome is a piece of art,'
+ * followed by a new line
+ */
 int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
