@@ -1,10 +1,8 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description: A C program that prints 'with proper grammar,
- * but the outcome is a piece of art,'
- * followed by a new line
- * return: 0 if successful
+ *
+ * Return: Always 0 (success)
  */
 int main(void)
 {
