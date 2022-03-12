@@ -1,11 +1,12 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
- * main - program that prints text to standart error
+ * main - Entry point
  * Return: 1 (success)
  */
 int main(void)
 {
-	fprintf(stderr,
-	"and that piece of art is useful\" -Dora Korpa, 2015-10-19\n");
+	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",
+	sizeof("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n"));
 	return (1);
 }
