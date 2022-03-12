@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - printing sizes of types
- * Description: A program to print the size of types
- * Return: Always o (success)
+ * Description: This program prints the size of types
+ * Return: Always 0 (success)
  */
 int main(void)
 {
